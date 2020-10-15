@@ -1,0 +1,137 @@
+body {
+    background-image: url(images/background.jpg);
+    /* opacity: 0.5; */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1em;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 65px;
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+}
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.start {
+    padding: 10px 30px 10px 30px;
+    font-size: xx-large;
+    color: orange;
+    
+
+}
+
+
+button {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+/* header {
+    display: show;
+} */
+
+.question {
+    display: none;
+    justify-content: center;
+}
+.next {
+    display: none;
+    margin: auto;
+}
+
+.restart:hover {
+    cursor: pointer;
+    border: black solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 49.4%;
+    margin-left: 25%;
+    background-color: black;
+    color: white;
+  }
+  
+  .winner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    background-color: #111;
+    text-align: center;
+    z-index: 10;
+    display: none;
+    transition: all 250ms ease;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .average {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    background-color: #111;
+    text-align: center;
+    z-index: 10;
+    display: none;
+    transition: all 250ms ease;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .help {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 4rem;
+    background-color: #111;
+    text-align: center;
+    z-index: 10;
+    display: none;
+    transition: all 250ms ease;
+    color: white;
+    cursor: pointer;
+  }
+
+  .score {
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px darkorange;
+  }
+
+.show {
+    display: block;
+}
+
